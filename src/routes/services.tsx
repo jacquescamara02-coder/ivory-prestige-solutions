@@ -14,6 +14,7 @@ export const Route = createFileRoute("/services")({
       { property: "og:description", content: "Dix services complémentaires pour vos projets d'eau, de chantier et de foncier." },
     ],
   }),
+  staticData: { sitemap: true },
   component: Services,
 });
 

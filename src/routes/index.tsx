@@ -14,7 +14,9 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "Ivoire Travaux Services | Forage et équipements à Bouaké" },
       { property: "og:description", content: "Votre partenaire pour l'eau, le matériel et le foncier en Côte d'Ivoire." },
     ],
+    scripts: [{ type: "application/ld+json", children: JSON.stringify({ "@context": "https://schema.org", "@type": "LocalBusiness", name: "Ivoire Travaux Services", url: "https://www.ivoiretravaux-service.site/", telephone: "+2250789898963", email: "hassanesouhoud@gmail.com", address: { "@type": "PostalAddress", streetAddress: "Air France 3, Amanibo 1", addressLocality: "Bouaké", addressCountry: "CI" } }) }],
   }),
+  staticData: { sitemap: true },
   component: Home,
 });
 

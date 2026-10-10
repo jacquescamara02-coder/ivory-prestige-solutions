@@ -87,7 +87,7 @@ export function QuoteForm() {
   const field = "w-full rounded-md border border-input bg-background px-4 py-3 text-sm transition-colors duration-200 focus:border-primary focus:outline-none";
   return (
     <form onSubmit={submit} className="space-y-4 rounded-lg border bg-card p-7 shadow-sm md:p-9">
-      <h3 className="text-2xl font-semibold">Demande de devis gratuit</h3>
+      <h2 className="text-2xl font-semibold">Demande de devis gratuit</h2>
       <p className="text-sm text-muted-foreground">Réponse sous 24 heures. Votre demande nous parvient directement sur WhatsApp.</p>
       <div className="grid gap-4 sm:grid-cols-2">
         <input required name="name" placeholder="Nom complet" aria-label="Nom complet" className={field} />
