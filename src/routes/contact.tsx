@@ -13,6 +13,7 @@ export const Route = createFileRoute("/contact")({
       { property: "og:description", content: "Devis gratuit pour forage, pompes, véhicules, gravier et terrains." },
     ],
   }),
+  staticData: { sitemap: true },
   component: Contact,
 });
 

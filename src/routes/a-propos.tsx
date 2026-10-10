@@ -14,6 +14,7 @@ export const Route = createFileRoute("/a-propos")({
       { property: "og:description", content: "Notre mission : rendre l'eau et les équipements accessibles partout en Côte d'Ivoire." },
     ],
   }),
+  staticData: { sitemap: true },
   component: About,
 });
 

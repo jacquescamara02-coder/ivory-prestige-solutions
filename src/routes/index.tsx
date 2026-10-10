@@ -15,6 +15,7 @@ export const Route = createFileRoute("/")({
       { property: "og:description", content: "Votre partenaire pour l'eau, le matériel et le foncier en Côte d'Ivoire." },
     ],
   }),
+  staticData: { sitemap: true },
   component: Home,
 });
 
