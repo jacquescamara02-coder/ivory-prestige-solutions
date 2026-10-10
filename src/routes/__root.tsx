@@ -81,6 +81,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Ivoire Travaux Services" },
       { name: "description", content: "Forage, pompes, véhicules, gravier et terrains à Bouaké." },
       { property: "og:type", content: "website" },
+      { name: "google-site-verification", content: "MWJ8KfRmNDIVZTyE1fqs86Toi328Zdn3xiq7Vi2QFo8" },
+      { property: "og:site_name", content: "Ivoire Travaux Services" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
